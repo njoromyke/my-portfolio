@@ -137,4 +137,13 @@ export const projects = [
     image: "/dinic.png",
     link: "https://play.google.com/store/apps/details?id=com.mykesoftware.dinic",
   },
+
+  {
+    name: "Rent Management System",
+    stack: ["ReactJS", "Material UI", "NodeJS", "MongoDB"],
+    description:
+      "A rent management system for a school. The website is built using ReactJS and Material UI. The backend is built using NodeJS and MongoDB. The website is currently in production and can be used by any organization to manage their rent.",
+    image: "/rent.png",
+    link: "https://jujarental.web.app",
+  },
 ];
