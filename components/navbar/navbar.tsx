@@ -1,34 +1,30 @@
-import Link from "next/link";
-import React, { useRef } from "react";
+import { GlobalContext } from "@/context/context";
+import { useContext } from "react";
 
 const Navbar = () => {
-  const ref = useRef<HTMLDivElement>(null);
+  const {
+    globalState,
+    globalState: { isMenuOpen },
+    updateGlobalState,
+  } = useContext(GlobalContext);
 
   const handleMenuClick = () => {
-
-  }
-
-
+    updateGlobalState({ isMenuOpen: true });
+  };
 
   return (
-    <div className="mx-auto sticky top-0 shadow-sm bg-primary text-secondary">
-      <div className="mx-auto sticky top-0 shadow-sm">
-        <div className="flex justify-between py-4 px-4 flex-row-reverse md:flex-row">
-          <h2 className="text-3xl uppercase font-bold">Home</h2>
-          <div className="flex space-y-1 border p-2 rounded flex-col text-secondary md:hidden">
-            <span className="h-1 w-6 bg-secondary"></span>
-            <span className="h-1 w-6 bg-secondary"></span>
-            <span className="h-1 w-6 bg-secondary"></span>
-          
-          </div>
-          <div className="hidden md:flex space-x-6">
-            <Link href="/">Home</Link>
-            <Link href="/">Projects</Link>
-            <Link href="/">About</Link>
+    <>
+      <div className="mx-auto sticky top-0 shadow-sm bg-primary text-secondary">
+        <div className="mx-auto sticky top-0 shadow-sm">
+          <div className="flex justify-between py-4 px-4">
+            <h2 className="text-2xl">Home</h2>
+            <div onClick={handleMenuClick} className="text-secondary text-4xl cursor-pointer">
+              <h2 className="bi bi-list"></h2>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
