@@ -5,10 +5,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className=" h-[89vh] text-secondary mx-auto p-6">
-      <div className="flex mt-24">
-        <div className="w-1/2 flex justify-between flex-col">
-          <h1 className="text-7xl font-bold mb-4">
+    <div className=" h-[90-vh] text-secondary mx-auto p-6 mb-9">
+      <div className="flex mt-24  flex-col-reverse lg:flex-row">
+        <div className="w-full flex justify-center flex-col lg:w-1/2 lg:justify-between">
+          <h1 className="text-2xl font-bold mb-4 md:text-6xl lg:text-7xl">
             Hey, I'm <span className="text-gray-300">Michael Njoroge</span>
           </h1>
           <h2 className="text-lg">
@@ -45,8 +45,8 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="w-1/2 flex justify-center items-center">
-          <Image src={"/mike.png"} width={300} height={300} alt="Mike" />
+        <div className="w-full flex justify-center items-center mb-6 relative lg:w-1/2">
+          <Image src={"/mike.png"} width={300} height={300} alt="Mike" className="border-r-8 border-b-8 border-secondary" />
         </div>
       </div>
     </div>

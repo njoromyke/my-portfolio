@@ -29,9 +29,8 @@ const Sidebar = () => {
         <Link href="/" className="">
           Home
         </Link>
-        <Link href="/#about">About</Link>
-        <Link href="/#projects">Projects</Link>
         <Link href="/#skills">Skills</Link>
+        <Link href="/#projects">Projects</Link>
         <Link href="/#resume">Download Resume</Link>
       </div>
       <div
