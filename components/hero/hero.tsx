@@ -5,14 +5,15 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className=" h-[90-vh] text-secondary mx-auto p-6 mb-9">
+    <div className=" h-[90-vh] text-secondary mx-auto p-6 mb-9" id="#home">
       <div className="flex mt-24  flex-col-reverse lg:flex-row">
-        <div className="w-full flex justify-center flex-col lg:w-1/2 lg:justify-between">
+        <div className="w-full flex justify-center space-y-12 flex-col lg:w-1/2 lg:justify-between">
           <h1 className="text-2xl font-bold mb-4 md:text-6xl lg:text-7xl">
             Hey, I'm <span className="text-gray-300">Michael Njoroge</span>
           </h1>
           <h2 className="text-lg">
-            A fullstack software engineer with a passion for building scalable and performant web applications.
+            A fullstack software engineer with a passion for building scalable and performant software systems. I have over 4
+            years of experience in building web and mobile applications using modern technologies.
           </h2>
           <div className="flex space-x-4 mt-4">
             <Link
@@ -44,6 +45,10 @@ const Hero = () => {
               <i className="text-lg bi bi-envelope-at"></i>
             </Link>
           </div>
+
+          <button className="bg-secondary text-primary px-2 py-4 rounded mt-4 w-36">
+            <Link href="#projects" scroll={false}>My Portfolio</Link>
+          </button>
         </div>
         <div className="w-full flex justify-center items-center mb-6 relative lg:w-1/2">
           <Image src={"/mike.png"} width={300} height={300} alt="Mike" className="border-r-8 border-b-8 border-secondary" />

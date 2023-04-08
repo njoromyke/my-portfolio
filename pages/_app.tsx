@@ -1,11 +1,10 @@
 import Navbar from "@/components/navbar/navbar";
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
-import "bootstrap-icons/font/bootstrap-icons.css";
-import Link from "next/link";
-import { useRef, useState } from "react";
-import { DEFAULT_GLOBAL_STATE, GlobalContext } from "@/context/context";
 import Sidebar from "@/components/sidebar/sidebar";
+import { DEFAULT_GLOBAL_STATE, GlobalContext } from "@/context/context";
+import "@/styles/globals.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import type { AppProps } from "next/app";
+import { useRef, useState } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
   const ref = useRef<HTMLDivElement | null>(null);

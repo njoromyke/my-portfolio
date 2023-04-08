@@ -9,6 +9,7 @@ const Skill = ({ level, name }: SkillProps) => {
   return (
     <div className="flex justify-between items-center p-4 space-x-6">
       <h3 className="text-lg font-bold">{name}</h3>
+
       <div className="flex space-x-2">
         {Array.from({ length: level }, (_, i) => (
           <>
@@ -16,11 +17,10 @@ const Skill = ({ level, name }: SkillProps) => {
           </>
         ))}
         {Array.from({ length: 5 - level }, (_, i) => (
-            <>
-                <div key={i} className="w-4 h-4 bg-gray-300 rounded-full"></div>
-            </>
+          <>
+            <div key={i} className="w-4 h-4 bg-gray-300 rounded-full"></div>
+          </>
         ))}
-        
       </div>
     </div>
   );

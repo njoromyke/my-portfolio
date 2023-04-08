@@ -9,6 +9,13 @@ const Sidebar = () => {
     updateGlobalState,
   } = useContext(GlobalContext);
 
+  const links = [
+    { name: "Home", href: "/#home" },
+    { name: "Skills", href: "/#skills" },
+    { name: "Projects", href: "/#projects" },
+    { name: "Resume", href: "/njoroge_resume.pdf", target: "_blank" },
+  ];
+
   return (
     <>
       <div
@@ -26,12 +33,17 @@ const Sidebar = () => {
         >
           <i className="bi bi-x"></i>
         </h2>
-        <Link href="/" className="">
-          Home
-        </Link>
-        <Link href="/#skills">Skills</Link>
-        <Link href="/#projects">Projects</Link>
-        <Link href="/#resume">Download Resume</Link>
+        {links.map((link) => (
+          <Link
+            href={link.href}
+            key={link.name}
+            target={link.target}
+            download={link.name === "Resume" ? true : false}
+            scroll={false}
+          >
+            {link.name}
+          </Link>
+        ))}
       </div>
       <div
         className={`transition-all duration-500 ease-in-out z-40 bg-black w-10/12 opacity-20 top-0 bottom-0 fixed 

@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="mx-auto sticky top-0 shadow-sm bg-primary text-secondary">
+      <div className="mx-auto sticky top-0 shadow-sm bg-primary text-secondary z-50">
         <div className="mx-auto sticky top-0 shadow-sm">
           <div className="flex justify-between py-4 px-4">
             <h2 className="text-2xl">Home</h2>

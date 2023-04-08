@@ -1,11 +1,11 @@
-import { skills } from "@/helpers/constants";
+import { skills } from "@/helpers/data";
 import Image from "next/image";
 import React from "react";
 import Skill from "./skill";
 
 const Skills = () => {
   return (
-    <div className="bg-gray-300 w-full py-16">
+    <div className="bg-gray-300 w-full py-16" id="skills">
       <h2 className="text-4xl text-center mb-8 text-primary">Skills</h2>
 
       <div className="flex justify-center items-center flex-col-reverse lg:flex-row">
