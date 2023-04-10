@@ -23,7 +23,8 @@ const Home = () => {
         />
         <link rel="manifest" href="/manifest.json" />
         <meta name="author" content="Michael Njoroge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />{" "}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google-site-verification" content="2DGemgww5DjzFXCWRAhOxVJEEZeRZNka-d0Dp5AEtg4" />
       </Head>
       <Hero />
       <Skills />
