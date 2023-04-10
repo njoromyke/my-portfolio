@@ -5,6 +5,7 @@ import "@/styles/globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import type { AppProps } from "next/app";
 import { useRef, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App({ Component, pageProps }: AppProps) {
   const ref = useRef<HTMLDivElement | null>(null);
@@ -22,6 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Navbar />
         <Sidebar />
         <Component {...pageProps} />
+        <Analytics />
       </div>
     </GlobalContext.Provider>
   );
