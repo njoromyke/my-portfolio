@@ -115,7 +115,7 @@ export const projects = [
   },
   {
     name: "Hotel Booking Website",
-    stack: ["React", "Bootstrap5", "Firebase"],
+    stack: ["React", "Material UI", "Firebase"],
     description:
       "A website for a hotel booking website. The website is built using ReactJS and Bootstrap5. The backend is built using Firebase. The website is currently in production and was presented as a school project.",
     image: "/hotel-booking.png",
@@ -133,7 +133,7 @@ export const projects = [
     name: "Dinic Food Delivery App",
     stack: ["React Native", "NodeJS", "MongoDB"],
     description:
-      "A food delivery app for dinic. The app is built using React Native and Redux. The backend is built using NodeJS and MongoDB. The app is currently in production. I actually delivered food to Juja residents using this app till I got employed.",
+      "A food delivery app for Dinic. The app is built using React Native and Redux. The backend is built using NodeJS and MongoDB. The app is currently in production. I actually delivered food to Juja residents using this app till I got employed.",
     image: "/dinic.png",
     link: "https://play.google.com/store/apps/details?id=com.mykesoftware.dinic",
   },
