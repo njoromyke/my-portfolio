@@ -82,7 +82,7 @@ export const projects = [
 
   {
     name: "Yellow Landing",
-    stack: ["React", "Next.js", "NodeJs", "Tailwind CSS", "Postgres"],
+    stack: [ "Next.js", "NodeJs", "Tailwind CSS", "Postgres"],
     description:
       "This is a landing page generator that I created for my employer yellow Pages Kenya. The landing page generator is built using ReactJS and NextJS. The backend is built using NodeJS and Postgres. This system purpose was to help YP Kenya generate landing pages for their clients. It integrated the YP Listings API to reduce time used to produce a landing page.",
     image: "/yellow_landing.png",
