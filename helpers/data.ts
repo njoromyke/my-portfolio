@@ -148,8 +148,11 @@ export const projects = [
   },
 
   {
-
-  }
-
-
+    name: "Pizza Ordering App",
+    stack: ["Next JS", "MongoDB", "NodeJS", "Tailwind CSS"],
+    description:
+      "Pizza mtaani is a simple pizza delivery application with an invoce generator for pizza ordered. This application enables users to generate and print an invoice of orders a customer has placed.",
+    image: "/pizza.png",
+    link: "https://pizza-mtaa-front.vercel.app",
+  },
 ];
