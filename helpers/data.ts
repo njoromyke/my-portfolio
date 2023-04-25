@@ -67,7 +67,7 @@ export const projects = [
     name: "Dairy Farm Mobile App",
     stack: ["React Native", "Firebase", "TypeScript"],
     description:
-      "A mobile app for dairy farmers to manage their farm. The mobile app is built using React Native and Redux. The backend is built using Firebase and a NodeJS  server that serves the ML model. The app is currently in production and is being used by farmers in Kenya.",
+      "A mobile app for dairy farmers to manage their farm. The mobile app is built using React Native and Redux. The backend is built using Firebase and a NodeJS  server that serves the ML model. The purpose of developing the application is to help small scale dairy farmers manage their dairy farms records concerning cattle, milk output and events happening in the farm. It also has a ML model that predicts the milk production of a cow.",
     image: "/dairy_farm.png",
     link: "https://expo.dev/artifacts/eas/bSGJe2eHBhMKTZ1g94irDa.apk",
   },
@@ -75,7 +75,7 @@ export const projects = [
     name: "E-Commerce Website",
     stack: ["React", "Next.js", "Firebase", "Material UI"],
     description:
-      "An e-commerce website built using ReactJS and Material UI. The backend is built using Firebase. The website is was a school project and is currently not in production.",
+      "An e-commerce application built using ReactJS and Material UI. The backend is built using Firebase. The website can be used for any form of ecommerce listings but currently it is listings car spare parts. One can shop and pay with paypal.",
     image: "/ecomm.png",
     link: "https://ecommerce-6f755.web.app/",
   },
@@ -84,7 +84,7 @@ export const projects = [
     name: "Yellow Landing",
     stack: ["React", "Next.js", "NodeJs", "Tailwind CSS", "Postgres"],
     description:
-      "This is a landing page generator that I created for my employer yellow Pages Kenya. The landing page generator is built using ReactJS and NextJS. The backend is built using NodeJS and Postgres. The landing page generator is currently in production and is being used by yellow Pages Kenya.",
+      "This is a landing page generator that I created for my employer yellow Pages Kenya. The landing page generator is built using ReactJS and NextJS. The backend is built using NodeJS and Postgres. This system purpose was to help YP Kenya generate landing pages for their clients. It integrated the YP Listings API to reduce time used to produce a landing page.",
     image: "/yellow_landing.png",
     link: "https://yellowlanding.yellowpageskenya.com/",
   },
@@ -92,7 +92,7 @@ export const projects = [
     name: "Cleaning Services Finder",
     stack: ["React", "Bootstrap5", "Firebase"],
     description:
-      "A website that allows users to find cleaning services in their area. The website is built using ReactJS and Bootstrap5. The backend is built using Firebase. The website is currently in production and is being used by users in Kenya.",
+      "A system that allows users to find cleaning services in their area. The website is built using ReactJS and Bootstrap5. This applications enables users to find cleaning services in their area and has geo location feature to show the user the nearest cleaning services. The backend is built using Firebase.",
     image: "/cleaner.png",
     link: "https://cleaner-56a55.web.app/",
   },
@@ -100,7 +100,7 @@ export const projects = [
     name: "Hospital Landing Page",
     stack: ["Html", "CSS", "JQuery", "Bootstrap5"],
     description:
-      "A landing page for a hospital. The landing page is built using Html, CSS, JQuery and Bootstrap5. The landing page is currently in production and is being used by a hospital in Kenya.",
+      "A landing page for a hospital. The landing page is built using Html, CSS, JQuery and Bootstrap5. The website shows a landing page for any type of hospital.",
     image: "/hospital_landing.png",
     link: "https://njoromyke.github.io/hospital_landing_page",
   },
@@ -109,15 +109,15 @@ export const projects = [
     name: "Garden Haven E-MALL",
     stack: ["NextJS", "Bootstrap5", "Firebase"],
     description:
-      "A website for a garden haven e-mall. The website is built using NextJS and Bootstrap5. The backend is built using Firebase. The website is currently in production and was presented as a school project.",
+      "A website for a garden haven e-mall. The system is built using NextJS and Bootstrap5. The backend is built using Firebase. This application seeks to demonstrate how online shopping in shopping malls can be achieved as it has functionality to add a shop, shop and order products in the shops, parking services, conference halls bookings and payment with Paypal.",
     image: "/garden_haven.png",
     link: "https://garden-haven-mall.vercel.app",
   },
   {
-    name: "Hotel Booking Website",
+    name: "Hotel Booking Application",
     stack: ["React", "Material UI", "Firebase"],
     description:
-      "A website for a hotel booking website. The website is built using ReactJS and Bootstrap5. The backend is built using Firebase. The website is currently in production and was presented as a school project.",
+      "A Hotel Booking Application. The system is built using ReactJS and Bootstrap5. The backend is built using Firebase.This is a hotel booking application that enables users to book rooms for a certain time period in a hotel.",
     image: "/hotel-booking.png",
     link: "https://hotel-b4c75.firebaseapp.com",
   },
@@ -125,7 +125,7 @@ export const projects = [
     name: "Inventory Management System",
     stack: ["ReactJS", "Material UI", "NodeJS", "MongoDB"],
     description:
-      "An inventory management system for a school. The website is built using ReactJS and Material UI. The backend is built using NodeJS and MongoDB. The website is currently in production and can be used by any organization to manage their inventory.",
+      "An inventory management system. The system is built using ReactJS and Material UI. The backend is built using NodeJS and MongoDB. The website is currently in production and can be used by any organization to manage their inventory.",
     image: "/inventory.png",
     link: "https://inventory-81775.web.app/",
   },
@@ -133,7 +133,7 @@ export const projects = [
     name: "Dinic Food Delivery App",
     stack: ["React Native", "NodeJS", "MongoDB"],
     description:
-      "A food delivery app for Dinic. The app is built using React Native and Redux. The backend is built using NodeJS and MongoDB. The app is currently in production. I actually delivered food to Juja residents using this app till I got employed.",
+      "A food delivery app for Dinic. The app is built using React Native and Redux. The backend is built using NodeJS and MongoDB. The application was developed to help students around Jomo Kenyatta University of Agriculture and Technology to order food from their favorite restaurants at an affordable delivery fee.",
     image: "/dinic.png",
     link: "https://play.google.com/store/apps/details?id=com.mykesoftware.dinic",
   },
@@ -142,8 +142,14 @@ export const projects = [
     name: "Rent Management System",
     stack: ["ReactJS", "Material UI", "NodeJS", "MongoDB"],
     description:
-      "A rent management system for a school. The website is built using ReactJS and Material UI. The backend is built using NodeJS and MongoDB. The website is currently in production and can be used by any organization to manage their rent.",
+      "A rent management system developed to help landlords manage records concerning their properties. The UI is built using ReactJS and Material UI. The backend is built using NodeJS and MongoDB. The application generates invoices for tenants and enables landlords to track payments made by tenants.",
     image: "/rent.png",
     link: "https://my-systems-383209.web.app",
   },
+
+  {
+
+  }
+
+
 ];
