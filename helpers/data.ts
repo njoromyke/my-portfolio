@@ -69,7 +69,7 @@ export const projects = [
     description:
       "A mobile app for dairy farmers to manage their farm. The mobile app is built using React Native and Redux. The backend is built using Firebase and a NodeJS  server that serves the ML model. The purpose of developing the application is to help small scale dairy farmers manage their dairy farms records concerning cattle, milk output and events happening in the farm. It also has a ML model that predicts the milk production of a cow.",
     image: "/dairy_farm.png",
-    link: "https://expo.dev/artifacts/eas/bSGJe2eHBhMKTZ1g94irDa.apk",
+    link: "https://expo.dev/artifacts/eas/xrkTowdySyAYi7HDgTp9dh.apk",
   },
   {
     name: "E-Commerce Website",
@@ -82,7 +82,7 @@ export const projects = [
 
   {
     name: "Yellow Landing",
-    stack: [ "Next.js", "NodeJs", "Tailwind CSS", "Postgres"],
+    stack: ["Next.js", "NodeJs", "Tailwind CSS", "Postgres"],
     description:
       "This is a landing page generator that I created for my employer yellow Pages Kenya. The landing page generator is built using ReactJS and NextJS. The backend is built using NodeJS and Postgres. This system purpose was to help YP Kenya generate landing pages for their clients. It integrated the YP Listings API to reduce time used to produce a landing page.",
     image: "/yellow_landing.png",
