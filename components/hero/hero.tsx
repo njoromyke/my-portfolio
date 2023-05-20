@@ -9,7 +9,8 @@ const Hero = () => {
       <div className="flex mt-24  flex-col-reverse lg:flex-row">
         <div className="w-full flex justify-center space-y-12 flex-col lg:w-1/2 lg:justify-between">
           <h1 className="text-2xl font-bold mb-4 md:text-6xl lg:text-7xl">
-            Hey, I'm <span className="text-gray-300">Michael Njoroge</span>
+            Hey, I'm{" "}
+            <span className="bg-gradient-to-tr from-slate-200 to-sky-300 bg-clip-text text-transparent">Michael Njoroge</span>
           </h1>
           <h2 className="text-lg">
             A fullstack software engineer with a passion for building scalable and performant software systems. I have over 4
@@ -51,31 +52,25 @@ const Hero = () => {
           </div>
 
           <div className="flex space-x-4 mt-4">
-            <button
-              type="button"
+            <Link
+              href="#projects"
+              scroll={false}
               aria-label="Link to Michael Njoroge's Portfolio"
-              className="bg-secondary text-primary px-2 py-4 rounded mt-4 w-36"
+              className="bg-secondary text-primary px-2 py-4 rounded mt-4 w-36 text-center"
             >
-              <Link href="#projects" scroll={false} aria-label="Link to Michael Njoroge's Portfolio">
-                My Portfolio
-              </Link>
-            </button>
+              My Portfolio
+            </Link>
 
-            <button
-              type="button"
+            <Link
+              href="/njoroge_resume.pdf"
+              download
+              target="_blank"
+              scroll={false}
               aria-label="Link to Michael Njoroge's Resume"
-              className="bg-transparent text-secondary border transition-all ease-out duration-700 border-secondary px-2 py-4 rounded mt-4 w-36 hover:bg-slate-50 hover:text-primary"
+              className="bg-transparent text-secondary border transition-all ease-out duration-700 border-secondary px-2 py-4 rounded mt-4 w-36 hover:bg-slate-50 hover:text-primary text-center"
             >
-              <Link
-                href="/njoroge_resume.pdf"
-                download
-                target="_blank"
-                scroll={false}
-                aria-label="Link to Michael Njoroge's Resume"
-              >
-                My Resume
-              </Link>
-            </button>
+              My Resume
+            </Link>
           </div>
         </div>
         <div className="w-full flex justify-center items-center mb-6 relative lg:w-1/2">
