@@ -32,9 +32,9 @@ const Project = ({ project }: ProjectProps): JSX.Element => {
 
       <h3 className="mt-1 p-2 text-lg font-medium text-primary">{project.name}</h3>
 
-      <div className="flex flex-wrap p-2 space-x-1 space-y-2 text-sm font-medium">
+      <div className="flex flex-wrap space-x-2 text-sm font-medium pl-2">
         {project.stack.map((tech) => (
-          <span key={tech} className="inline-flex items-center space-y-2 px-3 py-0.5 rounded-full text-secondary bg-primary">
+          <span key={tech} className="inline-flex items-center space-y-2 px-3 py-0.5 rounded-full mb-2  text-secondary bg-primary">
             {tech}
           </span>
         ))}
