@@ -33,6 +33,7 @@ const Footer = () => {
     <div className="w-full bg-gray-100">
       <button
         ref={ref}
+        aria-label="Scroll to top"
         onClick={handleScrollToTop}
         className="bg-primary text-secondary p-1 mb-1 mr-1 flex justify-center items-center rounded mt-4 w-12 fixed bottom-0 right-0"
       >

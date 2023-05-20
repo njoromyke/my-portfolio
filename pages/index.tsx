@@ -19,7 +19,7 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content={`Michael Njoroge, Software Engineer in Kenya, Web Developer in Kenya, Mobile Developer in Kenya, Software Development Portfolio Kenya, Web Development Portfolio Kenya, Mobile App Development Kenya, Full Stack Developer Kenya, Frontend Developer Kenya,Backend Developer Kenya`}
+          content={`Michael Njoroge,Michael, Njoroge, Myke,mike, software engineering, web development, React JS, ReactNative developer`}
         />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="author" content="Michael Njoroge" />

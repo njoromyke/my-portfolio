@@ -14,7 +14,11 @@ interface ProjectProps {
 
 const Project = ({ project }: ProjectProps): JSX.Element => {
   return (
-    <Link href={project.link} className="group bg-secondary rounded" key={project.name} target="_blank">
+    <Link href={project.link} className="group bg-secondary rounded" key={project.name} target="_blank"
+      rel="noopener noreferrer"
+      aria-label="View Project"
+    
+    >
       <div className="aspect-h-1 px-2 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         <Image
           src={project.image}

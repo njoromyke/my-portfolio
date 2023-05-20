@@ -10,7 +10,7 @@ const Skills = () => {
 
       <div className="flex justify-center items-center flex-col-reverse lg:flex-row">
         <div className="w-full flex justify-center items-center lg:p-6 lg:w-1/2">
-          <Image src={"/skill-1.png"} width={400} height={400} alt="Skills" />
+          <Image src={"/skill-1.png"} width={400} height={400} alt="Skills Matrix of Michael Njoroge" />
         </div>
         <div className="w-full lg:p-6 lg:w-1/2">
           <div className="flex flex-row flex-wrap justify-start space-x-4 bg-slate-50 rounded shadow-sm">

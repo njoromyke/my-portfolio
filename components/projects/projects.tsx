@@ -10,8 +10,8 @@ const Projects = () => {
       <h2 className="text-4xl text-center mb-8 text-secondary">My Portfolio</h2>
       <p className="text-center text-lg text-gray-300 p-0 m-0">Here are some of my projects that I have worked on.</p>
       <div className="grid grid-cols-1 mt-3 gap-x-6  gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-        {projects.map((project) => (
-          <Project project={project} key={project.name} />
+        {projects.map((project, index) => (
+          <Project project={project} key={index} />
         ))}
       </div>
 

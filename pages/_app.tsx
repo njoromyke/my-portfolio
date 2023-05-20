@@ -15,8 +15,6 @@ export default function App({ Component, pageProps }: AppProps) {
     setGlobalState((prevState) => ({ ...prevState, ...obj }));
   };
 
-  console.log(globalState);
-
   return (
     <GlobalContext.Provider value={{ globalState, updateGlobalState }}>
       <div className="relative">
