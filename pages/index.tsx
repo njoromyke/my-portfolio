@@ -21,6 +21,7 @@ const Home = () => {
           name="keywords"
           content={`Michael Njoroge,Michael, Njoroge, Myke,mike, software engineering, web development, React JS, ReactNative developer`}
         />
+        <link rel="canonical" href="https://michaelnjoroge.vercel.app/" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="author" content="Michael Njoroge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
